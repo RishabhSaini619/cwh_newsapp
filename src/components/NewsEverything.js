@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import NewsItem from "./NewsItem";
-import loadingSpinner from "./loadingSpinner";
 
 export class NewsEverything extends Component {
   constructor() {

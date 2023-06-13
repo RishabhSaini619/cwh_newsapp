@@ -54,8 +54,9 @@ export class NewsTopHeadlines extends Component {
   render() {
     return (
       <div className="container-center mx-2 my-2">
-        <h2 className="text-center">Top Headlines</h2>
+        <h2 className="text-center" style={{margin :`30px 10px`}}>Top Headlines</h2>
         <div className="row mx-3 my-2">
+          
           {this.state.articles.map((element) => {
             return (
               <div className="col-md-2" key={element.url}>
